@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
 from IPython.display import display, HTML
 
-df = pd.read_csv('bgg_dataset.csv', sep=';')
+df = pd.read_csv('pk1/bgg_dataset.csv', sep=';')
 
 #df = pd.read_csv(r'C:\Users\katie\OneDrive\Documents\DS Capstone\App\bgg_dataset.csv', sep=';')
 
