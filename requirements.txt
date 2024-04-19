@@ -3,4 +3,3 @@ scikit-learn
 pandas
 ipython
 streamlit
-pk1
