@@ -103,7 +103,7 @@ import pickle
 
 import streamlit as st
 
-with open('recmodel.pk1', 'rb') as f:
+with open('pk1/recmodel.pk1', 'rb') as f:
     load_model = pickle.load(f)
     bg_rec = load_model[0]
 
